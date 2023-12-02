@@ -1,0 +1,75 @@
+Players CSV Columns
+nflId int,
+height varchar(255),
+weight int,
+birthDate (Date)
+collegeName varchar(255),
+position varchar(255),
+displayName varchar(255),
+
+CREATE TABLE Tracking (
+key int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+gameId int,
+playId int,
+nflId (Convert from float to int)
+displayName varchar(255),
+frameId int,
+time (DateTime)
+jerseyNumber (Convert from float to int)
+club varchar(255),
+playDirection varchar(255),
+x Decimal(5,2),
+y Decimal(5,2),
+s Decimal(5,2),
+a Decimal(5,2),
+dis Decimal(5,2)
+o int,
+dir int, 
+event varchar(255)
+)
+
+Plays CSV Columns
+gameId int,
+playId int,
+ballCarrierId int,
+ballCarrierDisplayName varchar(255),
+playDescription varchar(255),
+quarter int,
+down int,
+yardsToGo int,
+possessionTeam (Str)
+defensiveTeam (Str)
+yardlineSide (Str)
+yardlineNumber int,
+gameClock (Str)
+preSnapHomeScore int,
+preSnapVisitorScore int,
+passResult (Str)
+passLength (Float)
+penaltyYards (Float)
+prePenaltyPlayResult int,
+playResult int,
+playNullifiedByPenalty (Str)
+absoluteYardlineNumber int,
+offenseFormation )Str)
+defendersInTheBox (Float)
+passProbability (Float)
+preSnapHomeTeamWinProbability (Float)
+preSnapVisitorTeamWinProbability (Float)
+homeTeamWinProbabilityAdded (Float)
+visitorTeamWinProbilityAdded (Float)
+expectedPoints (Float)
+expectedPointsAdded (Float)
+foulName1 (Float)
+foulName2 (Float)
+foulNFLId1 (Float)
+foulNFLId2 (Float)
+
+Tackles CSV COlumns
+gameId int,
+playId int,
+nflId int,
+tackle int,
+assist int,
+forcedFumble int, 
+pff_missedTackle int,
