@@ -1,0 +1,5 @@
+Foreign Keys
+ Play, Tackles, Tracking: gameId links to Game
+ Tackles and Tracking : nflID links to Player
+ 
+ 
