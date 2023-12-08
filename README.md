@@ -12,3 +12,6 @@ SQL file which I used to execute queries and interact with the Data Base.
 # PassLength.py
 Used Python Pandas Package and SQLite API to execute query which extracted pass length for completed passes. 
 Stored the resulting query in a data frameand plotted a histogram using matplotlib to show distribution of pass length in the Data Frame.
+# YardsToGo.py
+Used Python Pandas Package and SQLite API to execute query which extracted the Average yards to go on each down. 
+Stored the resulting query in a data frame and plotted a histogram using matplotlib to show distribution of the yards to go.
