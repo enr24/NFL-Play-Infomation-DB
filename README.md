@@ -9,3 +9,6 @@ Text file which I used to create the Data-Base in Sqlite. Has information on the
 SQL File which created and stored the Database.
 # Query.sql
 SQL file which I used to execute queries and interact with the Data Base. 
+# Passlength.py
+Used Python Pandas Package and SQLite API to execute query which extracted pass length for completed passes. 
+Stored the resulting query in a data frameand plotted a histogram using matplotlib to show distribution of pass length in the Data Frame.
